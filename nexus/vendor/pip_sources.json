@@ -1,0 +1,11 @@
+{
+  "cortex": ["pyautogen", "langgraph", "langchain-core", "crewai", "agno"],
+  "panopticon": ["browser-use", "playwright", "smolagents", "opencv-python-headless", "paddleocr"],
+  "hands": ["openhands-sdk (via git)", "gptme", "subprocess-rt"],
+  "echo": ["faster-whisper", "piper-tts", "sounddevice", "RealtimeTTS"],
+  "logos": ["sympy", "networkx", "pydantic", "msgpack"],
+  "mnemosyne": ["chromadb", "sqlite-vec", "mem0ai", "rank-bm25"],
+  "genome": ["tree-sitter", "tree-sitter-python", "deap"],
+  "soma": ["psutil", "pynvml", "GPUtil"],
+  "showcase": ["streamlit", "gradio", "rich"]
+}
