@@ -1,0 +1,38 @@
+nohup: ignoring input
+[1/37] cached openai/swarm
+[2/37] cached microsoft/autogen
+[3/37] ok     huggingface/smolagents
+[4/37] ok     microsoft/Playwright-Python
+[5/37] fail:fatal: could not read Username for 'https://github.com': terminal prompts disabl deepdocio/DeepDoc
+[6/37] ok     browser-use/browser-use
+[7/37] ok     langchain-ai/langgraph
+[8/37] ok     ultralytics/ultralytics
+[9/37] ok     All-Hands-AI/OpenHands
+[10/37] ok     agno-agi/agno
+[11/37] ok     e2b-dev/e2b
+[12/37] ok     openai/whisper
+[13/37] ok     gptme/gptme
+[14/37] ok     coqui-ai/TTS
+[15/37] ok     rhasspy/piper
+[16/37] ok     camel-ai/camel
+[17/37] ok     networkx/networkx
+[18/37] ok     sympy/sympy
+[19/37] ok     modelscope/FunASR
+[20/37] ok     pydantic/pydantic
+[21/37] fail:fatal: unable to access 'https://github.com/sqlite.org (sqlite-vec)/': URL using sqlite.org (sqlite-vec)
+[22/37] ok     getzep/graphiti
+[23/37] ok     qdrant/qdrant
+[24/37] fail:fatal: could not read Username for 'https://github.com': terminal prompts disabl evo-ml/evo
+[25/37] fail:fatal: unable to access 'https://github.com/google-deepmind/alphafold-style-evol google-deepmind/alphafold-style-evolution -> codelang evolutionary
+[26/37] ok     chroma-core/chroma
+[27/37] fail:fatal: could not read Username for 'https://github.com': terminal prompts disabl psutil/psutil
+[28/37] fail:fatal: could not read Username for 'https://github.com': terminal prompts disabl gpuopen/gpupower
+[29/37] fail:fatal: unable to access 'https://github.com/NVML via pynvml/': URL using bad/ill NVML via pynvml
+[30/37] ok     n8n-io/n8n
+[31/37] ok     mem0ai/mem0
+[32/37] ok     KoljaB/RealtimeTTS
+[33/37] ok     aider-ai/aider
+[34/37] ok     tauri-apps/tauri
+[35/37] ok     skyvern-ai/skyvern
+[36/37] ok     gradio-app/gradio
+[37/37] ok     streamlit/streamlit
