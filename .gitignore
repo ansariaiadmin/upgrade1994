@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+nexus/logs/
+nexus/vendor/git/

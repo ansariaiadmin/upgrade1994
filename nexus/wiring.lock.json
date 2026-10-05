@@ -1,0 +1,358 @@
+{
+  "generated": "2026-10-05",
+  "vendor_dir": "vendor/git",
+  "communities": {
+    "cortex": {
+      "role": "brain/planning",
+      "modules": [
+        {
+          "source": "microsoft/autogen",
+          "vendor_path": "vendor/git/microsoft_autogen",
+          "status": "cloned"
+        },
+        {
+          "source": "openai/swarm",
+          "vendor_path": "vendor/git/openai_swarm",
+          "status": "cloned"
+        },
+        {
+          "source": "langchain-ai/langgraph",
+          "vendor_path": "vendor/git/langchain-ai_langgraph",
+          "status": "cloned"
+        },
+        {
+          "source": "camel-ai/camel",
+          "vendor_path": "vendor/git/camel-ai_camel",
+          "status": "cloned"
+        },
+        {
+          "source": "agno-agi/agno",
+          "vendor_path": "vendor/git/agno-agi_agno",
+          "status": "cloned"
+        },
+        {
+          "source": "ollama/ollama",
+          "vendor_path": "vendor/git/ollama_ollama",
+          "status": "cloned",
+          "added_by": "assembly-sweep"
+        },
+        {
+          "source": "ollama/ollama-python",
+          "vendor_path": "vendor/git/ollama_ollama-python",
+          "status": "cloned",
+          "added_by": "assembly-sweep"
+        },
+        {
+          "source": "ggerganov/llama.cpp",
+          "vendor_path": "vendor/git/ggerganov_llama.cpp",
+          "status": "cloned",
+          "added_by": "assembly-sweep"
+        },
+        {
+          "source": "vllm-project/vllm",
+          "vendor_path": "vendor/git/vllm-project_vllm",
+          "status": "cloned",
+          "added_by": "assembly-sweep"
+        },
+        {
+          "source": "huggingface/transformers",
+          "vendor_path": "vendor/git/huggingface_transformers",
+          "status": "cloned",
+          "added_by": "assembly-sweep"
+        },
+        {
+          "source": "BerriAI/litellm",
+          "vendor_path": "vendor/git/BerriAI_litellm",
+          "status": "cloned",
+          "added_by": "assembly-sweep"
+        },
+        {
+          "source": "NVIDIA/Megatron-LM",
+          "vendor_path": "vendor/git/NVIDIA_Megatron-LM",
+          "status": "cloned",
+          "added_by": "assembly-sweep"
+        },
+        {
+          "source": "microsoft/DeepSpeed",
+          "vendor_path": "vendor/git/microsoft_DeepSpeed",
+          "status": "cloned",
+          "added_by": "assembly-sweep"
+        }
+      ]
+    },
+    "panopticon": {
+      "role": "eyes/vision",
+      "modules": [
+        {
+          "source": "browser-use/browser-use",
+          "vendor_path": "vendor/git/browser-use_browser-use",
+          "status": "cloned"
+        },
+        {
+          "source": "microsoft/Playwright-Python",
+          "vendor_path": "vendor/git/microsoft_Playwright-Python",
+          "status": "cloned"
+        },
+        {
+          "source": "huggingface/smolagents",
+          "vendor_path": "vendor/git/huggingface_smolagents",
+          "status": "cloned"
+        },
+        {
+          "source": "infiniflow/ragflow",
+          "vendor_path": "vendor/git/infiniflow_ragflow",
+          "status": "cloned",
+          "added_by": "dead-url-fix"
+        },
+        {
+          "source": "ultralytics/ultralytics",
+          "vendor_path": "vendor/git/ultralytics_ultralytics",
+          "status": "cloned"
+        },
+        {
+          "source": "openclaw/openclaw",
+          "vendor_path": "vendor/git/openclaw_openclaw",
+          "status": "cloned",
+          "added_by": "assembly-sweep"
+        }
+      ]
+    },
+    "hands": {
+      "role": "body/execution",
+      "modules": [
+        {
+          "source": "All-Hands-AI/OpenHands",
+          "vendor_path": "vendor/git/All-Hands-AI_OpenHands",
+          "status": "cloned"
+        },
+        {
+          "source": "skyvern-ai/skyvern",
+          "vendor_path": "vendor/git/skyvern-ai_skyvern",
+          "status": "cloned"
+        },
+        {
+          "source": "n8n-io/n8n",
+          "vendor_path": "vendor/git/n8n-io_n8n",
+          "status": "cloned"
+        },
+        {
+          "source": "gptme/gptme",
+          "vendor_path": "vendor/git/gptme_gptme",
+          "status": "cloned"
+        },
+        {
+          "source": "e2b-dev/e2b",
+          "vendor_path": "vendor/git/e2b-dev_e2b",
+          "status": "cloned"
+        }
+      ]
+    },
+    "echo": {
+      "role": "ears/mouth",
+      "modules": [
+        {
+          "source": "openai/whisper",
+          "vendor_path": "vendor/git/openai_whisper",
+          "status": "cloned"
+        },
+        {
+          "source": "modelscope/FunASR",
+          "vendor_path": "vendor/git/modelscope_FunASR",
+          "status": "cloned"
+        },
+        {
+          "source": "rhasspy/piper",
+          "vendor_path": "vendor/git/rhasspy_piper",
+          "status": "cloned"
+        },
+        {
+          "source": "coqui-ai/TTS",
+          "vendor_path": "vendor/git/coqui-ai_TTS",
+          "status": "cloned"
+        },
+        {
+          "source": "KoljaB/RealtimeTTS",
+          "vendor_path": "vendor/git/KoljaB_RealtimeTTS",
+          "status": "cloned"
+        }
+      ]
+    },
+    "logos": {
+      "role": "language/math-dsl",
+      "modules": [
+        {
+          "source": "sympy/sympy",
+          "vendor_path": "vendor/git/sympy_sympy",
+          "status": "cloned"
+        },
+        {
+          "source": "networkx/networkx",
+          "vendor_path": "vendor/git/networkx_networkx",
+          "status": "cloned"
+        },
+        {
+          "source": "pydantic/pydantic",
+          "vendor_path": "vendor/git/pydantic_pydantic",
+          "status": "cloned"
+        }
+      ]
+    },
+    "mnemosyne": {
+      "role": "memory",
+      "modules": [
+        {
+          "source": "qdrant/qdrant",
+          "vendor_path": "vendor/git/qdrant_qdrant",
+          "status": "cloned"
+        },
+        {
+          "source": "chroma-core/chroma",
+          "vendor_path": "vendor/git/chroma-core_chroma",
+          "status": "cloned"
+        },
+        {
+          "source": "asg017/sqlite-vec",
+          "vendor_path": "vendor/git/asg017_sqlite-vec",
+          "status": "cloned",
+          "added_by": "dead-url-fix"
+        },
+        {
+          "source": "getzep/graphiti",
+          "vendor_path": "vendor/git/getzep_graphiti",
+          "status": "cloned"
+        },
+        {
+          "source": "mem0ai/mem0",
+          "vendor_path": "vendor/git/mem0ai_mem0",
+          "status": "cloned"
+        },
+        {
+          "source": "khoj-ai/khoj",
+          "vendor_path": "vendor/git/khoj-ai_khoj",
+          "status": "cloned",
+          "added_by": "assembly-sweep"
+        },
+        {
+          "source": "infiniflow/ragflow",
+          "vendor_path": "vendor/git/infiniflow_ragflow",
+          "status": "cross-ref",
+          "added_by": "assembly-sweep",
+          "primary_community": "panopticon"
+        },
+        {
+          "source": "zylon-ai/private-gpt",
+          "vendor_path": "vendor/git/zylon-ai_private-gpt",
+          "status": "cloned",
+          "added_by": "assembly-sweep"
+        },
+        {
+          "source": "Mintplex-Labs/anything-llm",
+          "vendor_path": "vendor/git/Mintplex-Labs_anything-llm",
+          "status": "cloned",
+          "added_by": "assembly-sweep"
+        }
+      ]
+    },
+    "genome": {
+      "role": "self-improvement",
+      "modules": [
+        {
+          "source": "openai/swarm",
+          "vendor_path": "vendor/git/openai_swarm",
+          "status": "cross-ref",
+          "added_by": "dead-url-fix",
+          "primary_community": "cortex"
+        },
+        {
+          "source": "networkx/networkx",
+          "vendor_path": "vendor/git/networkx_networkx",
+          "status": "cross-ref",
+          "added_by": "dead-url-fix",
+          "primary_community": "logos"
+        },
+        {
+          "source": "aider-ai/aider",
+          "vendor_path": "vendor/git/aider-ai_aider",
+          "status": "cloned"
+        },
+        {
+          "source": "Significant-Gravitas/AutoGPT",
+          "vendor_path": "vendor/git/Significant-Gravitas_AutoGPT",
+          "status": "cloned",
+          "added_by": "assembly-sweep"
+        },
+        {
+          "source": "langgenius/dify",
+          "vendor_path": "vendor/git/langgenius_dify",
+          "status": "cloned",
+          "added_by": "assembly-sweep"
+        },
+        {
+          "source": "Flagsmith/flagsmith",
+          "vendor_path": "vendor/git/Flagsmith_flagsmith",
+          "status": "cloned",
+          "added_by": "assembly-sweep"
+        }
+      ]
+    },
+    "soma": {
+      "role": "hardware sync",
+      "modules": [
+        {
+          "source": "giampaolo/psutil",
+          "vendor_path": "vendor/git/giampaolo_psutil",
+          "status": "cloned",
+          "added_by": "dead-url-fix"
+        },
+        {
+          "source": "NVIDIA/Megatron-LM",
+          "vendor_path": "vendor/git/NVIDIA_Megatron-LM",
+          "status": "cross-ref",
+          "added_by": "dead-url-fix",
+          "primary_community": "cortex"
+        },
+        {
+          "source": "microsoft/DeepSpeed",
+          "vendor_path": "vendor/git/microsoft_DeepSpeed",
+          "status": "cross-ref",
+          "added_by": "dead-url-fix",
+          "primary_community": "cortex"
+        }
+      ]
+    },
+    "showcase": {
+      "role": "eye-of-god UI",
+      "modules": [
+        {
+          "source": "streamlit/streamlit",
+          "vendor_path": "vendor/git/streamlit_streamlit",
+          "status": "cloned"
+        },
+        {
+          "source": "gradio-app/gradio",
+          "vendor_path": "vendor/git/gradio-app_gradio",
+          "status": "cloned"
+        },
+        {
+          "source": "tauri-apps/tauri",
+          "vendor_path": "vendor/git/tauri-apps_tauri",
+          "status": "cloned"
+        },
+        {
+          "source": "open-webui/open-webui",
+          "vendor_path": "vendor/git/open-webui_open-webui",
+          "status": "cloned",
+          "added_by": "assembly-sweep"
+        }
+      ]
+    }
+  },
+  "unwired_present": [],
+  "missing": [],
+  "counts": {
+    "unique_vendor_repos": 49,
+    "cross_references": 5,
+    "vendor_dirs_on_disk": 49
+  },
+  "note": "49 vendor repos on disk; ALL wired to communities. soma=psutil(core), cortex=LLM runtime, mnemosyne=memory/RAG, genome=evolution/orchestration."
+}

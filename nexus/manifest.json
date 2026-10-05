@@ -1,0 +1,16 @@
+{
+  "project": "NEXUS-HYPERAGENT",
+  "version": "0.1.0",
+  "target_hw": {"cpu": "i7", "ram_gb": 24},
+  "communities": {
+    "cortex":      {"role": "brain/planning",   "repos": ["microsoft/autogen", "openai/swarm", "langchain-ai/langgraph", "camel-ai/camel", "agno-agi/agno"]},
+    "panopticon":  {"role": "eyes/vision",      "repos": ["browser-use/browser-use", "microsoft/Playwright-Python", "huggingface/smolagents", "deepdocio/DeepDoc", "ultralytics/ultralytics"]},
+    "hands":       {"role": "body/execution",   "repos": ["All-Hands-AI/OpenHands", "skyvern-ai/skyvern", "n8n-io/n8n", "gptme/gptme", "e2b-dev/e2b"]},
+    "echo":        {"role": "ears/mouth",       "repos": ["openai/whisper", "modelscope/FunASR", "rhasspy/piper", "coqui-ai/TTS", "KoljaB/RealtimeTTS"]},
+    "logos":       {"role": "language/math-dsl","repos": ["sympy/sympy", "networkx/networkx", "pydantic/pydantic"]},
+    "mnemosyne":   {"role": "memory",           "repos": ["qdrant/qdrant", "chroma-core/chroma", "sqlite.org (sqlite-vec)", "getzep/graphiti", "mem0ai/mem0"]},
+    "genome":      {"role": "self-improvement", "repos": ["evo-ml/evo", "google-deepmind/alphafold-style-evolution -> codelang evolutionary", "aider-ai/aider"]},
+    "soma":        {"role": "hardware sync",    "repos": ["psutil/psutil", "gpuopen/gpupower", "NVML via pynvml"]},
+    "showcase":    {"role": "eye-of-god UI",    "repos": ["streamlit/streamlit", "gradio-app/gradio", "tauri-apps/tauri"]}
+  }
+}

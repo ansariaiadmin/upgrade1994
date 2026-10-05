@@ -1,0 +1,347 @@
+{
+ "generated_by": "vendor/patch_wiring.py",
+ "communities": {
+  "cortex": {
+   "role": "brain/planning",
+   "modules": [
+    {
+     "repo": "microsoft/autogen",
+     "path": "vendor/git/microsoft_autogen",
+     "kinds": [],
+     "packages": []
+    },
+    {
+     "repo": "openai/swarm",
+     "path": "vendor/git/openai_swarm",
+     "kinds": [
+      "python"
+     ],
+     "packages": [
+      "examples",
+      "swarm",
+      "tests"
+     ]
+    },
+    {
+     "repo": "langchain-ai/langgraph",
+     "path": "vendor/git/langchain-ai_langgraph",
+     "kinds": [],
+     "packages": []
+    },
+    {
+     "repo": "camel-ai/camel",
+     "path": "vendor/git/camel-ai_camel",
+     "kinds": [
+      "python"
+     ],
+     "packages": [
+      "examples",
+      "services",
+      "camel"
+     ]
+    },
+    {
+     "repo": "agno-agi/agno",
+     "path": "vendor/git/agno-agi_agno",
+     "kinds": [],
+     "packages": [
+      "cookbook"
+     ]
+    }
+   ]
+  },
+  "panopticon": {
+   "role": "eyes/vision",
+   "modules": [
+    {
+     "repo": "browser-use/browser-use",
+     "path": "vendor/git/browser-use_browser-use",
+     "kinds": [
+      "python"
+     ],
+     "packages": [
+      "examples",
+      "browser_use"
+     ]
+    },
+    {
+     "repo": "microsoft/Playwright-Python",
+     "path": "vendor/git/microsoft_Playwright-Python",
+     "kinds": [
+      "python"
+     ],
+     "packages": [
+      "tests",
+      "playwright"
+     ]
+    },
+    {
+     "repo": "huggingface/smolagents",
+     "path": "vendor/git/huggingface_smolagents",
+     "kinds": [
+      "python"
+     ],
+     "packages": [
+      "tests"
+     ]
+    },
+    {
+     "repo": "ultralytics/ultralytics",
+     "path": "vendor/git/ultralytics_ultralytics",
+     "kinds": [
+      "python"
+     ],
+     "packages": [
+      "ultralytics",
+      "tests"
+     ]
+    }
+   ]
+  },
+  "hands": {
+   "role": "body/execution",
+   "modules": [
+    {
+     "repo": "All-Hands-AI/OpenHands",
+     "path": "vendor/git/All-Hands-AI_OpenHands",
+     "kinds": [
+      "node"
+     ],
+     "packages": []
+    },
+    {
+     "repo": "skyvern-ai/skyvern",
+     "path": "vendor/git/skyvern-ai_skyvern",
+     "kinds": [
+      "python"
+     ],
+     "packages": [
+      "tests",
+      "skyvern"
+     ]
+    },
+    {
+     "repo": "n8n-io/n8n",
+     "path": "vendor/git/n8n-io_n8n",
+     "kinds": [
+      "node"
+     ],
+     "packages": []
+    },
+    {
+     "repo": "gptme/gptme",
+     "path": "vendor/git/gptme_gptme",
+     "kinds": [
+      "python"
+     ],
+     "packages": [
+      "gptme"
+     ]
+    },
+    {
+     "repo": "e2b-dev/e2b",
+     "path": "vendor/git/e2b-dev_e2b",
+     "kinds": [
+      "node"
+     ],
+     "packages": []
+    }
+   ]
+  },
+  "echo": {
+   "role": "ears/mouth",
+   "modules": [
+    {
+     "repo": "openai/whisper",
+     "path": "vendor/git/openai_whisper",
+     "kinds": [
+      "python"
+     ],
+     "packages": [
+      "whisper"
+     ]
+    },
+    {
+     "repo": "modelscope/FunASR",
+     "path": "vendor/git/modelscope_FunASR",
+     "kinds": [
+      "python"
+     ],
+     "packages": [
+      "fun_text_processing",
+      "runtime",
+      "funasr"
+     ]
+    },
+    {
+     "repo": "rhasspy/piper",
+     "path": "vendor/git/rhasspy_piper",
+     "kinds": [],
+     "packages": []
+    },
+    {
+     "repo": "coqui-ai/TTS",
+     "path": "vendor/git/coqui-ai_TTS",
+     "kinds": [
+      "python"
+     ],
+     "packages": [
+      "TTS",
+      "tests"
+     ]
+    },
+    {
+     "repo": "KoljaB/RealtimeTTS",
+     "path": "vendor/git/KoljaB_RealtimeTTS",
+     "kinds": [
+      "python"
+     ],
+     "packages": [
+      "RealtimeTTS",
+      "tests"
+     ]
+    }
+   ]
+  },
+  "logos": {
+   "role": "language/math-dsl",
+   "modules": [
+    {
+     "repo": "sympy/sympy",
+     "path": "vendor/git/sympy_sympy",
+     "kinds": [
+      "python"
+     ],
+     "packages": [
+      "sympy"
+     ]
+    },
+    {
+     "repo": "networkx/networkx",
+     "path": "vendor/git/networkx_networkx",
+     "kinds": [
+      "python"
+     ],
+     "packages": [
+      "networkx"
+     ]
+    },
+    {
+     "repo": "pydantic/pydantic",
+     "path": "vendor/git/pydantic_pydantic",
+     "kinds": [
+      "python"
+     ],
+     "packages": [
+      "pydantic",
+      "tests"
+     ]
+    }
+   ]
+  },
+  "mnemosyne": {
+   "role": "memory",
+   "modules": [
+    {
+     "repo": "qdrant/qdrant",
+     "path": "vendor/git/qdrant_qdrant",
+     "kinds": [
+      "rust"
+     ],
+     "packages": []
+    },
+    {
+     "repo": "chroma-core/chroma",
+     "path": "vendor/git/chroma-core_chroma",
+     "kinds": [
+      "python",
+      "rust"
+     ],
+     "packages": [
+      "chromadb"
+     ]
+    },
+    {
+     "repo": "getzep/graphiti",
+     "path": "vendor/git/getzep_graphiti",
+     "kinds": [
+      "python"
+     ],
+     "packages": [
+      "graphiti_core"
+     ]
+    },
+    {
+     "repo": "mem0ai/mem0",
+     "path": "vendor/git/mem0ai_mem0",
+     "kinds": [
+      "python"
+     ],
+     "packages": [
+      "tests",
+      "mem0"
+     ]
+    }
+   ]
+  },
+  "genome": {
+   "role": "self-improvement",
+   "modules": [
+    {
+     "repo": "aider-ai/aider",
+     "path": "vendor/git/aider-ai_aider",
+     "kinds": [
+      "python"
+     ],
+     "packages": [
+      "aider",
+      "benchmark",
+      "tests",
+      "scripts"
+     ]
+    }
+   ]
+  },
+  "soma": {
+   "role": "hardware sync",
+   "modules": []
+  },
+  "showcase": {
+   "role": "eye-of-god UI",
+   "modules": [
+    {
+     "repo": "streamlit/streamlit",
+     "path": "vendor/git/streamlit_streamlit",
+     "kinds": [
+      "python"
+     ],
+     "packages": [
+      "e2e_playwright"
+     ]
+    },
+    {
+     "repo": "gradio-app/gradio",
+     "path": "vendor/git/gradio-app_gradio",
+     "kinds": [
+      "python",
+      "node"
+     ],
+     "packages": [
+      "demo",
+      "gradio",
+      "test"
+     ]
+    },
+    {
+     "repo": "tauri-apps/tauri",
+     "path": "vendor/git/tauri-apps_tauri",
+     "kinds": [
+      "node",
+      "rust"
+     ],
+     "packages": []
+    }
+   ]
+  }
+ }
+}
