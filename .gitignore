@@ -1,1 +1,4 @@
-(empty)
+__pycache__/
+*.pyc
+nexus/logs/
+nexus/vendor/git/
